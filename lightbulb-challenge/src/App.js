@@ -1,12 +1,21 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, {Component} from 'react';
+import './App.css'
+import Light from './light.js'
+import lbon from './lbon.png'
+import lboff from './lboff.png'
+import Add from './Add'
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Your code goes here :)</h1>
-      </div>
-    );
-  }
+
+
+class App extends Component {
+    render () {
+        return(
+            <div>
+                <Add/>
+            </div>
+        )
+    }
 }
+
+
+export default App;
